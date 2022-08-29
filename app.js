@@ -6,7 +6,7 @@ for (let index = 0; index < 898; index++) {
     pokemon.classList.add('pokemon');
 
     const label = document.createElement('span');
-    label.innerText = `#${index}`;
+    label.innerText = `#${index + 1}`;
 
     const newImage = document.createElement('img');
     newImage.src = `${baseURL}${index + 1}.png`
